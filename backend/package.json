@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "nodemon -L"
+    },
+    "keywords": [],
+    "author": "dungtv",
+    "license": "ISC",
+    "dependencies": {
+        "@socket.io/cluster-adapter": "^0.2.2",
+        "@socket.io/sticky": "^1.0.4",
+        "express": "^4.19.2",
+        "socket.io": "^4.7.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
